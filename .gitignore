@@ -1,0 +1,16 @@
+# Ignore node_modules in any directory
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore build/production files
+/build
+/dist
+
+# Ignore cache and log files
+*.log
+.cache/
+
+# Ignore the package-lock.json files, these are regenerated during npm install
+package-lock.json
