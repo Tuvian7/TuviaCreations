@@ -7,27 +7,24 @@ function Home() {
     const [showSkills, setShowSkills] = useState(false);
 
     return (
-        <>            
-            <div className="header">
+        <>
+            <div class="container">
+                <div class="header">
                     <h1>Tuvia Nacshonov</h1>
                     <h3>Full Stack Developer</h3>
                 </div>
-                <div className="options">
+                <div class="options">
                     <ul>
-                        <li onClick={() => setShowSkills(true)}>
+                        <li onClick={() => setShowSkills(!showSkills)}>
                             SKILLS
                         </li>
                         <li>ABOUT ME</li>
                     </ul>
                 </div>
-                <div className="skills">
-                    {!showSkills && (
-                        <div>
-                        </div>
-
-                    )}
+                <div class="skills">
                     {showSkills && <Skills />}
                 </div>
+            </div>
         </>
     );
 }

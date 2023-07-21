@@ -34,12 +34,13 @@
 }
 
 .header h3 {
+   padding-left: 2%;
    padding-top: 3%;
-   margin-right: 25%;
    color: beige;
 }
 
 .options ul{
+   margin-top: 30%;
    list-style-type: none;
    padding: 0;
 }
@@ -48,4 +49,6 @@
    margin-bottom: 1rem;
    color: beige;
    text-align: left;
+   cursor: pointer;
 }
+

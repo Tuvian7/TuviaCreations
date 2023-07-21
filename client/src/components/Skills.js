@@ -1,15 +1,25 @@
 import React, { useState } from 'react';
-import './Home.css'
-import Skills from './Skills'
+import './Skills.css'
 
-function Home() {
-    // state variables
+function Skills() {
 
     return (
         <>
-        <h3>hello</h3>
+            <div class="skills">
+                <ul>
+                    <li>
+                        HTML
+                    </li>
+                    <li>
+                        CSS
+                    </li>
+                    <li>
+                        JS
+                    </li>
+                </ul>
+            </div>
         </>
     );
 }
 
-export default Home;
+export default Skills;
